@@ -28,7 +28,6 @@ namespace spin100_Keaimao_SDK
         private void button1_Click_1(object sender, EventArgs e)
         {
             Get g = new Get();
-            this.textBox1.Text = g.Getjson("云南");
         }
     }
 }
